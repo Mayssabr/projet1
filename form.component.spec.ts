@@ -8,13 +8,14 @@ describe('FormComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FormComponent ]
+      declarationsssss: [ FormComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(FormComponent);
+	print
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
